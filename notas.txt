@@ -1,0 +1,26 @@
+BrowserRouter
+Tiene como proposito encapsular todo los elementos para poder trabajar con la navegacion en react
+
+
+Inicializar servidor JSON
+Ejecuta json-server initialState.json para crear una API apartir de un JSON
+
+
+Redux es una librería escrita en JavaScript , basada en la arquitectura FLUX y 
+creada por Dan Abramov .
+
+Principios:
+1: Solamente hay una fuente de la verdad.
+2: El estado es de solo lectura.
+3: Solamente podemos utilizar funciones puras.
+
+mapStateToProps
+Pase el estado de mi aplicación como propiedades de mi componente
+
+mapDispatchToProps
+Mapea las acceciones que se van a ejecutar a nuestra estado
+
+Actions.
+Solo describe las acciones que se van a ejecutar y las pasa 
+las propiedades que son necesarias o que se requieren
+en el reducer
